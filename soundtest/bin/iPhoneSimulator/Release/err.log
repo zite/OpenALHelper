@@ -1,0 +1,11 @@
+
+Unhandled Exception: System.ArgumentNullException: Argument cannot be null.
+Parameter name: source
+  at System.Linq.Check.Source (System.Object source) [0x00000] in <filename unknown>:0 
+  at System.Linq.Enumerable.ToArray[Byte] (IEnumerable`1 source) [0x00000] in <filename unknown>:0 
+  at soundtest.AppDelegate.dosound () [0x00000] in <filename unknown>:0 
+  at soundtest.AppDelegate.FinishedLaunching (MonoTouch.UIKit.UIApplication app, MonoTouch.Foundation.NSDictionary options) [0x00000] in <filename unknown>:0 
+  at (wrapper managed-to-native) MonoTouch.UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at MonoTouch.UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00000] in <filename unknown>:0 
+  at MonoTouch.UIKit.UIApplication.Main (System.String[] args) [0x00000] in <filename unknown>:0 
+  at soundtest.Application.Main (System.String[] args) [0x00000] in <filename unknown>:0 
