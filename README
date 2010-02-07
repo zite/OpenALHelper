@@ -1,3 +1,4 @@
 This is a super basic helper for the monotouch opentk openal sound bits. You can easily play, stop, and do a jillion manipulations with caf files. There's also a caf helper so you can read through the headers straight to the data. I wanted to change the pitch of a sound while it was playing, there's an example of how to do this pretty simply. Most of the code is grabbed from the opentk example of openal. There's also structure and comments for caf files grabbed from apple's site.
 
 note: this will currently only work with caf files.
+easy terminal conversion: afconvert -f caff -d LEI16@22050 -c 1 input.caf output.caf
